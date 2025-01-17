@@ -1,0 +1,29 @@
+.politica{
+    width: 700px;
+    height: 670px;
+    margin: 50px 0px 0px 50px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 5);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #4158d0,
+    #ffb374, #ef5f5f, #d840b6);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+}
+@keyframes bg {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
