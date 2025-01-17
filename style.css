@@ -1,19 +1,23 @@
 .politica{
-    width: 700px;
+    border-radius: 15px;
+    width: 100%;
     height: 650px;
     margin: 50px 0px 0px 50px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 5);
-    margin-top: 600px;
 }
 .contenedor{
     display: flex;
     justify-content: center;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
 }
 body{
     margin: 0;
     height: 100vh;
     background: linear-gradient(-45deg, red,
-    rgb(221, 48, 48), rgb(236, 24, 24), rgb(240, 6, 6));
+    rgb(208, 76, 76), rgb(236, 24, 24), rgb(240, 6, 6));
     background-size: 400% 400%;
     animation: bg 12s ease infinite;
 }
